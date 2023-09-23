@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+collectors:
+  - perf_counters:
+      counters:
+        - name: '\Processor(_Total)\% Processor Time'
+        - name: '\Memory\Availabe MBytes'
